@@ -30,13 +30,13 @@ module.exports =
         type: 'boolean'
       order: 3
     goal:
-      title: 'Work toward a word goal'
+      title: 'Work toward a page goal'
       description: 'Shows a bar showing progress toward a word goal'
       type: 'number'
       default: 0
       order: 4
     goalColor:
-      title: 'Color for word goal'
+      title: 'Color for page goal'
       description: 'Use a CSS color value, such as rgb(0, 85, 255) or green'
       type: 'string'
       default: 'rgb(0, 85, 0)'
@@ -54,30 +54,30 @@ module.exports =
       items:
         type: 'boolean'
       order: 7
-    hidechars:
-      title: 'Hide character count'
-      description: 'Hides the character count from the view'
-      type: 'boolean'
-      default: false
-      order: 8
-    showprice:
-      title: 'Do you get paid per word?'
-      description: 'Shows the price for the text per word'
-      type: 'boolean'
-      default: false
-      order: 9
-    wordprice:
-      title: 'How much do you get paid per word?'
-      description: 'Allows you to find out how much do you get paid per word'
-      type: 'string'
-      default: '0.15'
-      order: 10
-    currencysymbol:
-      title: 'Set a different currency symbol'
-      description: 'Allows you to change the currency you get paid with'
-      type: 'string'
-      default: '$'
-      order: 11
+    # hidechars:
+    #   title: 'Hide character count'
+    #   description: 'Hides the character count from the view'
+    #   type: 'boolean'
+    #   default: false
+    #   order: 8
+    # showprice:
+    #   title: 'Do you get paid per word?'
+    #   description: 'Shows the price for the text per word'
+    #   type: 'boolean'
+    #   default: false
+    #   order: 9
+    # wordprice:
+    #   title: 'How much do you get paid per word?'
+    #   description: 'Allows you to find out how much do you get paid per word'
+    #   type: 'string'
+    #   default: '0.15'
+    #   order: 10
+    # currencysymbol:
+    #   title: 'Set a different currency symbol'
+    #   description: 'Allows you to change the currency you get paid with'
+    #   type: 'string'
+    #   default: '$'
+    #   order: 11
 
   activate: (state) ->
     view = new WordcountView()

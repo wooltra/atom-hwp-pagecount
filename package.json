@@ -1,20 +1,13 @@
 {
-  "name": "wordcount",
+  "name": "hwp-pagecount",
   "main": "./lib/main",
   "version": "2.8.0",
-  "description": "Counts the words (and characters) in your current document, as well as in your selection and displays it in the status bar.",
+  "description": "Counts the pages in HWP method. shows page count in Korean 200-character manuscript paper. 아래한글(HWP)과 동일한 방식으로 200자 원고지 기준 몇 장인지 표시합니다. 텍스트 영역을 선택한 경우에는 해당 부분이 몇 장인지 표시합니다.",
   "keywords": [
-    "word count",
-    "word",
-    "count",
-    "character count",
-    "char",
-    "character",
-    "status",
-    "bar",
-    "highlight"
+    "page count",
+    "hwp"
   ],
-  "repository": "https://github.com/nesQuick/atom-wordcount",
+  "repository": "https://github.com/wooltra/atom-hwp-pagecount",
   "license": "MIT",
   "engines": {
     "atom": ">=0.180.0"
