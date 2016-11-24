@@ -1,15 +1,22 @@
-# Atom wordcount package
+# HWP page counter package
 
-Counts the words and characters in your current document and displays them in the status bar. Plus a handful of great features, like:
+Counts the pages in Korean method(HWP). shows how many pages would be in 200-character manuscript paper.
 
-  - Actives automatically on text files (define on which file extensions you want to activate it, or turn it "Always on")
-  - Supports counting in your current selection
-  - Writing goal tracker (with custom colors support)
-  - Works with unsaved files
-  - Option to exclude `codeblocks` from count
-  - Option to show the total price per word for the document. Currency symbol can be changed in Settings.
+A fork of [Atom wordcount package](https://github.com/nesQuick/atom-wordcount). Thanks you!
 
+-----
 
-![A screenshot of your spankin' package](https://cloud.githubusercontent.com/assets/584259/19187373/62f97ad8-8c8b-11e6-85aa-1282f94f509b.gif))
+Atom 편집기에서 작성한 문서가 200자 원고지 기준 몇 장인지 표시합니다.
 
-*A special thanks goes to our [awesome contributors](https://github.com/nesQuick/atom-wordcount/graphs/contributors) 👏*
+한컴오피스 한글(아래한글 2010, 2014)과 동일한 방식으로 측정하는 것 같습니다. (Ctrl-Q,D로 눌러서 보는 문서통계 화면)
+
+아닌 경우가 있거든 Issues 에 올려주시거나 wooltradev@gmail.com 으로 알려주세요.
+
+![A screenshot](/screenshot.png)
+
+- 확장자가 없거나, 텍스트 형식의 확장자인 경우 원고지 장수를 표시합니다. 설정에서 변경할 수 있습니다.
+- 저장하지 않은 파일도 분량을 알 수 있습니다.
+- 0.1장 단위로 표시합니다. 200자 원고지 한장은 10줄이기 때문에 0.1장은 원고지 한 줄입니다.
+- 텍스트 영역을 선택한 경우에는 해당 부분이 몇 장인지 표시합니다.
+
+[Atom wordcount package](https://github.com/nesQuick/atom-wordcount) 를 아주 조금 변경하여 만들었습니다. 감사!

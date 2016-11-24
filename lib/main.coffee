@@ -25,7 +25,7 @@ module.exports =
       title: 'Autoactivate for files without an extension'
       description: 'Wordcount plugin enabled for files without a file extension'
       type: 'boolean'
-      default: false
+      default: true
       items:
         type: 'boolean'
       order: 3
