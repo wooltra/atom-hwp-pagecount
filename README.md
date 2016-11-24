@@ -1,6 +1,6 @@
 # HWP page counter package
 
-Counts the pages in Korean method(HWP). shows how many pages would be in 200-character manuscript paper.
+Counts the pages by Korean method(HWP). shows how many pages would be in 200-character manuscript paper.
 
 A fork of [Atom wordcount package](https://github.com/nesQuick/atom-wordcount). Thanks you!
 
