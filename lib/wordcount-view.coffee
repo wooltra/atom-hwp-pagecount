@@ -15,6 +15,7 @@ class WordcountView
 
   update_count: (editor) ->
     text = @getCurrentText editor
+    return if text == null
     pageCount = @count text
     @divWords.innerHTML = "원고지 #{pageCount || 0} 장"
     # @divWords.innerHTML += (" | #{charCount || 0} C") unless atom.config.get('wordcount.hidechars')
@@ -37,7 +38,10 @@ class WordcountView
   getCurrentText: (editor) =>
     selection = editor.getSelectedText()
     if selection
-      @element.classList.add @CSS_SELECTED_CLASS
+      if selection?.length > 1
+        @element.classList.add @CSS_SELECTED_CLASS
+      else
+        null
     else
       @element.classList.remove @CSS_SELECTED_CLASS
     text = editor.getText()
