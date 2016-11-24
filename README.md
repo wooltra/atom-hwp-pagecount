@@ -8,11 +8,10 @@ A fork of [Atom wordcount package](https://github.com/nesQuick/atom-wordcount). 
 
 Atom 편집기에서 작성한 문서가 200자 원고지 기준 몇 장인지 표시합니다.
 
-한컴오피스 한글(아래한글 2010, 2014)과 동일한 방식으로 측정하는 것 같습니다. (Ctrl-Q,D로 눌러서 보는 문서통계 화면)
+한컴오피스 한글(아래한글 2010, 2014)과 동일한 방식으로 측정하는 것 같습니다. Ctrl-Q,D를 눌러서 보는 문서통계 화면과
+다른 경우가 있거든 Issues 에 올려주시거나 wooltradev@gmail.com 으로 알려주세요.
 
-아닌 경우가 있거든 Issues 에 올려주시거나 wooltradev@gmail.com 으로 알려주세요.
-
-![A screenshot](/screenshot.png)
+![A screenshot](https://cloud.githubusercontent.com/assets/23469868/20591450/e3cf3bd8-b26b-11e6-885d-53cfca06c7db.png)
 
 - 확장자가 없거나, 텍스트 형식의 확장자인 경우 원고지 장수를 표시합니다. 설정에서 변경할 수 있습니다.
 - 저장하지 않은 파일도 분량을 알 수 있습니다.
