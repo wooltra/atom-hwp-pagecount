@@ -17,6 +17,6 @@ Atom 편집기용 200자 원고지 장수 계산기입니다.
 - 0.1장 단위로 표시합니다. 200자 원고지 한장은 10줄이기 때문에 0.1장은 원고지 한 줄입니다.
 - 텍스트 영역을 선택한 경우에는 해당 부분이 몇 장인지 표시합니다.
 
-아래한글에서 Ctrl-Q,D를 눌러서 보는 '문서통계' 화면의 '원고지(200자 기준)'과 다른 경우가 있거든 Issues 에 올려주시거나 wooltradev@gmail.com 으로 알려주세요.
+아래한글에서 Ctrl-Q,D를 눌러서 보는 '문서통계' 화면의 '원고지(200자 기준)'과 다른 경우가 있거든 Issues 에 올려주시거나 wooltra@yahoo.com 으로 알려주세요.
 
 [Atom wordcount package](https://github.com/nesQuick/atom-wordcount) 를 아주 조금 변경하여 만들었습니다. 감사!

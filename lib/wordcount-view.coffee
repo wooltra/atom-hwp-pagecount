@@ -41,7 +41,7 @@ class WordcountView
       if selection?.length > 1
         @element.classList.add @CSS_SELECTED_CLASS
       else
-        null
+        return null
     else
       @element.classList.remove @CSS_SELECTED_CLASS
     text = editor.getText()
